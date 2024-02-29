@@ -1,0 +1,2 @@
+HOST_REGISTRY_DATA_DIR="."
+REGISTRY_CONTAINER_NAME="registry_container"
