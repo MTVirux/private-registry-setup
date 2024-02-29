@@ -35,7 +35,7 @@ services:
     container_name:$REGISTRY_CONTAINER_NAME
     image: registry:2.8.3
     ports:
-    - "5000:5000"
+    - "$HOST_REGISTRY_DATA_DIR:5000"
     environment:
       REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY: /data
     volumes:
